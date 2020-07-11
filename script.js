@@ -1,7 +1,7 @@
 
 (function(){
-  var name = ["John","Joseph","Alex","Martin","Joey"];
-for(var i=0;i<5;i++){
+  var name = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+for(var i=0;i<9;i++){
   var a=name[i].charAt(0);
   if(a=='J'||a=='j')
   byeSpeaker.speak(name[i]);
